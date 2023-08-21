@@ -10,10 +10,10 @@
     return listaMaiuscula;
 }
 
-// Exemplo de uso
+// Exemplo
 const palavras = ["java", "python", "go"];
 //determinando uma  variavel para guarda o resultado gerado pela função.
 const palavrasMaiusculas = converterListaParaMaiusculas(palavras);
-document.write(palavrasMaiusculas); // Isso imprimirá  os itens da lista
+document.write(palavrasMaiusculas); 
 
  

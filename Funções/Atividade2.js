@@ -1,7 +1,7 @@
 
 function calcularFatorial(numero) {
   if (numero === 0 || numero === 1) {
-    return 1;  // O fatorial de 0 e 1 é 1
+    return 1; 
   }
 
   let fatorial = 1;
@@ -13,5 +13,5 @@ function calcularFatorial(numero) {
 }
 
 // Exemplo de uso
-document.write(calcularFatorial());
+document.write(calcularFatorial(5));
 

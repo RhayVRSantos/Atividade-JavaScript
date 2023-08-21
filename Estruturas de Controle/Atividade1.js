@@ -6,8 +6,8 @@ function verificarParOuImpar(numero) {
     }
 }
 
-const numero1 = 10;
-const numero2 = 7;
+const num1 = 10;
+const num2 = 7;
 
-console.log(`${numero1} é ${verificarParOuImpar(numero1)}`);
-console.log(`${numero2} é ${verificarParOuImpar(numero2)}`);
+console.log(`${num1} é ${verificarParOuImpar(num1)}`);
+console.log(`${num2} é ${verificarParOuImpar(num2)}`);

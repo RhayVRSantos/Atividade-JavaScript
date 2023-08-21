@@ -18,7 +18,7 @@ const item3 = {
 };
 
 // Criando um array para representar o carrinho de compras
-const carrinhoDeCompras = [item1, item2, item3];
+const carrinho = [item1, item2, item3];
 
 // Função para calcular o total do carrinho
 function calcularTotal(carrinho) {
@@ -31,9 +31,9 @@ function calcularTotal(carrinho) {
 
 // Exibindo os itens no carrinho e o total
 console.log("Carrinho de Compras:");
-for (const item of carrinhoDeCompras) {
+for (const item of carrinho) {
     console.log(`${item.nome} - Preço: ${item.preco.toFixed(2)} - Quantidade: ${item.quantidade}`);
 }
 
-const totalCarrinho = calcularTotal(carrinhoDeCompras);
+const totalCarrinho = calcularTotal(carrinho);
 console.log(`Total: ${totalCarrinho.toFixed(2)}`);
